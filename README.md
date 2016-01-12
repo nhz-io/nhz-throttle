@@ -1,6 +1,6 @@
 # nhz-throttle [![Build Status][travis-image]][travis-url] [![NPM][npm-image]][npm-url]
 
-## React Finite State Machine Component
+## Trottle calls
 
 ## Install
 ```
@@ -24,7 +24,7 @@ npm dist
 ### [MIT](LICENSE)
 
 ## VERSION
-### 0.0.2
+### 0.0.3
 
 [travis-image]: https://travis-ci.org/nhz-io/nhz-throttle.svg
 [travis-url]: https://travis-ci.org/nhz-io/nhz-throttle
