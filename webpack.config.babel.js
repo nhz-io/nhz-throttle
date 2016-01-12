@@ -7,7 +7,7 @@ var
   SRC           = 'src',
   DEV           = 'dev',
   DIST          = 'dist',
-  MAIN          = 'main.jsx',
+  MAIN          = 'throttle.es6',
   HOST          = 'localhost',
   PORT          = 9000,
 
@@ -36,7 +36,7 @@ if(TARGET === 'start') {
       loaders: [
         {
           test: /\.(es6|jsx)$/,
-          loaders: ['babel'],
+          loaders: ['react-hot', 'babel'],
           include: [ SRC_PATH, DEV_PATH ]
         },
         {
