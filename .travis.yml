@@ -1,10 +1,17 @@
 language: node_js
 node_js:
-- "0.11"
-- "0.12"
-- "iojs"
-- "4.2"
-- "5.1"
-matrix:
+- '0.11'
+- '0.12'
+- iojs
+- '4.2'
+- '5.1'
+matrix: 
 fast_finish: true
-script: "npm run-script dist"
+script: npm run-script dist
+deploy:
+  provider: npm
+  email: dev@nhz.io
+  api_key:
+    secure: egyswKI14SYqpX85VLp/WKE7byasMo/lxopOd/2aYO/d4tifeUuWkqwJ9tbX2Cehg5yrEBik4FatX+VKV5QyEPmp4+7fQlHBaRuMDYzuHZxZi15QYbRix2Av1QFhow5srze9qhoIxC4oFMAJFq2w96HE4IfaLT89OqnH/GDhC8tA0C9Z0bLRjsszCF+ZIDI+3mS6cbx9LycK15zqU33t8N39uPIl/4MNqIi5ms24UIIpFDdoY53YZFz/p4bsD57ylmSAIIZrGSTpcSvwrh7PQgAm23rFdySxNhJ0VCvST45pNgVqFC1a1wRX16rHZ9tiS88FwUBt7NxMnVUp5TVqxI0Z+UOPHF/2MZhqZWjxs3RKQw3sCfQobD3e230vNxZstqmZP9ZKKEwyj1ODxPaPOQIgm4Yuf5ImvguEvxmorSGcQgURBPw9Geeit8Egrwz94T0FM+lGndFuG2fDzsh8obFVWuZ8zlwL6mS9NrZRZGWo1r2ZLxX8BFUAe418BCrEN8nLkelA18LFcOheUqYyXJ7B6j0KcF721ekkNDwbW4sE+caBubsEQKREuQC7F5zDKpGaanLO5atD6ET/XABqj+pZ+3gbGGDzVN8qK7s6HI7m/NIMvNOTeiGHR00GbD7IOK5cmbHmI9xg3U2oMXJi2xwZjYnxAHzVQY7b8J1LUcQ=
+  on:
+    repo: nhz-io/nhz-throttle
