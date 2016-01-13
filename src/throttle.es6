@@ -1,5 +1,4 @@
 function throttle(func, time, callback) {
-  let last = null;
   let active, args, docall;
   if(func && time) {
     return function bound() {
