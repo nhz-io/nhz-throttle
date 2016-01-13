@@ -24,7 +24,7 @@ npm dist
 ### [MIT](LICENSE)
 
 ## [VERSION](HISTORY.md)
-### 0.0.4
+### 0.0.5
 
 [travis-image]: https://travis-ci.org/nhz-io/nhz-throttle.svg
 [travis-url]: https://travis-ci.org/nhz-io/nhz-throttle
