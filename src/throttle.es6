@@ -1,4 +1,4 @@
-function throttle(func, time, callback) {
+function throttle(func, time, callback, done) {
   let active, args, docall;
   if(func && time) {
     return function bound() {
@@ -13,7 +13,10 @@ function throttle(func, time, callback) {
           if(!start) { start = elapsed }
           if(elapsed - start > time) {
             active = false;
-            if(docall) { bound.apply(null, args) }
+            if(docall) {
+              let result = bound.apply(null, args);
+              if(done) { requestAnimationFrame(() => done(result)) }
+            }
           }
           else { requestAnimationFrame(clock) }
         }
