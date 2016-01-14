@@ -8,3 +8,4 @@ src
 test
 dev
 webpack.config.babel.js
+gh-pages
