@@ -22,4 +22,4 @@ deploy:
     repo: nhz-io/nhz-throttle
     branch: master
 after_deploy:
-  - ./dev/gh-pages.sh
+  - bash ./dev/gh-pages.sh
