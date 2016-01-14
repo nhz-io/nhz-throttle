@@ -18,7 +18,7 @@ function throttle(func, time, callback) {
           else { requestAnimationFrame(clock) }
         }
         requestAnimationFrame(clock);
-        let result = func.apply(null, arguments);
+        result = func.apply(null, arguments);
         args = docall = null;
         if(callback) { requestAnimationFrame(() => callback(result)) }
       }
