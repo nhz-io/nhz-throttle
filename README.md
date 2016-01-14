@@ -19,15 +19,20 @@ check http://localhost:9000
 npm dist
 ```
 
+## WEBSITE
+http://nhz-io.github.io/nhz-throttle
+
 ## LICENSE
 
 ### [MIT](LICENSE)
 
 ## [VERSION](HISTORY.md)
-### 0.0.5
+### 0.0.6
 
 [travis-image]: https://travis-ci.org/nhz-io/nhz-throttle.svg
 [travis-url]: https://travis-ci.org/nhz-io/nhz-throttle
 
 [npm-image]: https://img.shields.io/npm/v/nhz-throttle.svg?style=flat
 [npm-url]: https://www.npmjs.com/package/nhz-throttle
+
+[gh-pages]: http://nhz-io.github.io/nhz-throttle
