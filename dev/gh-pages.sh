@@ -6,7 +6,7 @@ mkdir gh-pages;
 
 npm run-script gh-pages
 
-deg gh-pages
+cd gh-pages
 git init
 
 git config --local user.name "Travis CI"
