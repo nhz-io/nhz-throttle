@@ -1,4 +1,12 @@
-# nhz-throttle [![Build Status][travis-image]][travis-url] [![NPM][npm-image]][npm-url]
+# nhz-throttle 
+
+[![Build Status][travis-image]][travis-url]
+[![Coverage Status](https://coveralls.io/repos/github/nhz-io/nhz-throttle/badge.svg?branch=master)](https://coveralls.io/github/nhz-io/nhz-throttle?branch=master)
+[![NPM][npm-image]][npm-url]
+[![bitHound Overall Score](https://www.bithound.io/github/nhz-io/nhz-throttle/badges/score.svg)](https://www.bithound.io/github/nhz-io/nhz-throttle)
+[![bitHound Dependencies](https://www.bithound.io/github/nhz-io/nhz-throttle/badges/dependencies.svg)](https://www.bithound.io/github/nhz-io/nhz-throttle/master/dependencies/npm)
+[![bitHound Dev Dependencies](https://www.bithound.io/github/nhz-io/nhz-throttle/badges/devDependencies.svg)](https://www.bithound.io/github/nhz-io/nhz-throttle/master/dependencies/npm)
+[![bitHound Code](https://www.bithound.io/github/nhz-io/nhz-throttle/badges/code.svg)](https://www.bithound.io/github/nhz-io/nhz-throttle)
 
 ## Trottle calls
 
