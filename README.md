@@ -35,7 +35,7 @@ http://nhz-io.github.io/nhz-throttle
 ### [MIT](LICENSE)
 
 ## [VERSION](HISTORY.md)
-### 0.0.6
+### 0.0.7
 
 [travis-image]: https://travis-ci.org/nhz-io/nhz-throttle.svg
 [travis-url]: https://travis-ci.org/nhz-io/nhz-throttle
