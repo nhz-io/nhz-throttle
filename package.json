@@ -1,6 +1,6 @@
 {
   "name": "nhz-throttle",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Throttle calls",
   "repository": {
     "type": "git",
